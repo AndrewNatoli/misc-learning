@@ -461,6 +461,7 @@ expand-brackets@^2.1.4:
 express-joi@^0.3.1:
   version "0.3.1"
   resolved "https://registry.yarnpkg.com/express-joi/-/express-joi-0.3.1.tgz#5724a5209175dcc3319882101615efa7039c3fc9"
+  integrity sha1-VySlIJF13MMxmIIQFhXvpwOcP8k=
   dependencies:
     joi "2.9.0"
 
@@ -683,7 +684,8 @@ has-values@^1.0.0:
 
 hoek@1.x.x:
   version "1.5.2"
-  resolved "http://registry.npmjs.org/hoek/-/hoek-1.5.2.tgz#d1038115c3046faf11bb089c25e8b409b1b7d8ca"
+  resolved "https://registry.yarnpkg.com/hoek/-/hoek-1.5.2.tgz#d1038115c3046faf11bb089c25e8b409b1b7d8ca"
+  integrity sha1-0QOBFcMEb68RuwicJei0CbG32Mo=
 
 http-errors@1.6.3, http-errors@~1.6.2, http-errors@~1.6.3:
   version "1.6.3"
@@ -904,7 +906,8 @@ isobject@^3.0.0, isobject@^3.0.1:
 
 joi@2.9.0:
   version "2.9.0"
-  resolved "http://registry.npmjs.org/joi/-/joi-2.9.0.tgz#995e0a661c2a847308d5bb990264d439d2ca49d6"
+  resolved "https://registry.yarnpkg.com/joi/-/joi-2.9.0.tgz#995e0a661c2a847308d5bb990264d439d2ca49d6"
+  integrity sha1-mV4KZhwqhHMI1buZAmTUOdLKSdY=
   dependencies:
     hoek "1.x.x"
 

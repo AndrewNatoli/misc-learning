@@ -2,11 +2,12 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 
-const PORT = 3001;
+const { dbConfig, serverConfig } = require('./config');
 
-mongoose.connect('mongodb://localhost/clientslearningapp');
+mongoose.connect(`mongodb://${dbConfig.MONGO_PATH}`);
 
 const app = express();
+const PORT = serverConfig.SERVER_PORT;
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
